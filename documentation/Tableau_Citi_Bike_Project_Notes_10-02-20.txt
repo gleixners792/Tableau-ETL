@@ -72,7 +72,7 @@ data or they were heavy favorites of certain patrons.
 
 14)	Overall, the popularity of the Citi Bike business and usage has tremendous growth. If the New 
 York City government continues to support bicycle usage in the city, I could expect that City 
-Bike�s growth will continue at its current rates. That is with the expectation that Citi Bike 
+Bike's growth will continue at its current rates. That is with the expectation that Citi Bike 
 continues with investment and exceptional customer service. From the data I reviewed, Citi Bike 
 has a nice business that provides a great service.
 
