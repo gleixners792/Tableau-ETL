@@ -1,0 +1,79 @@
+Tableau Citi Bike Project Notes
+
+1)	There is so much data to go through. My plan was to ETL data for 2014, 2016, 2018 & 2019. 
+2014 has 8MM records, 2016 has 13MM records, 2018 has 17MM records and 2019 had 21MM 
+records. The tableau public tool only allows a maximum of 15MM records. I found that out the 
+hard way.
+
+2)	My next approach (that worked) was to select a month from each year. I chose July from 2013 
+through 2020. The collective data resulted in 12.2MM records. I had a success with being below 
+the 15MM records maximum.
+
+3)	My first group of observations and analysis focused on the year over year growth in month of 
+July from 2013 through 2020 for the number of trips/rentals. There was 159% growth from 2013 
+through 2019. 2020 numbers were flat, but the trip duration was up. I believe that the Covid-19 
+virus impacted both of those numbers for 2020. I show a trend line to predict the growth going 
+forward.
+
+4)	My next group of observations reviewed the average trip distance on a year over year basis for 
+the July months of 2013 through 2020. I would say that the data was consistently around 1.15 
+miles per trip. The exception was for 2020, the average trip distance went over 1.3 miles per 
+trip. I believe this a result of the Covid-19 Virus too. Bike riding provided a different form of 
+entertainment.
+
+5)	My next group of observations reviewed the average trip time on a year over year basis for the 
+July months of 2013 through 2020. The average trip duration average around 1000 minutes. 
+2020 the average trip duration jumped to almost 1600 minutes. I also believe this is a result of 
+the Covid-19 Virus too. Bike riding provided a different form of healthy entertainment.
+
+6)	Next, I started reviewing the popularity of the starting stations and the ending stations. Station 
+ID 519 is the most popular starting station and especially for male riders. ID 426 is the most 
+popular station for female riders. I show a map of the most popular start stations too.
+
+7)	Then I reviewed that popularity of the end stations. It was interesting to me that the end 
+stations popularity was reversed from one and two from the start stations. 426 is the most 
+popular end station. 519 was the most popular start station. I included a map of the end stations 
+and I show the popularity of those stations too.
+
+8)	Up next, I reviewed the P75 quartile data of the trip distance verses the driver ages. I see a small 
+drop of the average distance as age from 24 through 48 and the drop continues from 52 and 
+older. What is strange is there is a jump for riders at the age from 49 through 51.  51-year-old 
+riders have a big jump to over 1.7 miles in their average trips. I decided to use the P75 as a level 
+to help with capacity planning.
+
+9)	Then I looked at average age of the On-Demand Customers verses the Subscriber customers and 
+the split by gender. I also added the trip counts into this view. Male Subscribers take the most 
+trips on the bikes. Both Male and Female Subscribers have about the same average age at 
+around 37-38 years of age. The On-Demand Customers seem to average 30-31 years of age for 
+both males and females. Subscribers take many more trips than the On-Demand Customers.
+
+
+10)	I also looked at the number of trips and trip durations for Subscriber Customers and On-Demand 
+Customers. The growth was about the same rate for both groups. For 2020, there was a 
+decrease of all Customers in number of trips and an increase in trip duration for 2020, especially 
+for the On-Demand customers. I believe that is also a result of the Covid-19 virus and biking 
+became a method of entertainment along with the exercise. 
+
+11)	Next, I looked at the number of trips by gender. The increase by gender matched the overall 
+increase on a year over year basis. 2020 was again an exception. Female and unknown trips 
+were up, and male trips were down. Again, the trip time duration was up for 2020 even thou the 
+over trips/rentals were down.
+
+12)	The next look at the data shows the trips by station with a look at the preference by gender. 
+Males preferred to start from station 519 and females preferred to start from station 426. I 
+believe that the majority unknowns are most likely females, so the interest in station 426 as the 
+start station needs to be explored and possibly developed/exploited. I have also provided a map 
+that shows the interest by gender in the most popular starting stations.
+
+13)	Then I started digging to the usage by the bike ID. I Look at the top 15 bike IDs and show the 
+total trips. The top bikes show heavy trips 2016 and 2018. Then I looked at the total trip distance 
+by bike ID. Five Bike IDs showed very heavy usage in 2016. Not sure if these bike IDs had bad 
+data or they were heavy favorites of certain patrons.
+
+14)	Overall, the popularity of the Citi Bike business and usage has tremendous growth. If the New 
+York City government continues to support bicycle usage in the city, I could expect that City 
+Bike�s growth will continue at its current rates. That is with the expectation that Citi Bike 
+continues with investment and exceptional customer service. From the data I reviewed, Citi Bike 
+has a nice business that provides a great service.
+
+
